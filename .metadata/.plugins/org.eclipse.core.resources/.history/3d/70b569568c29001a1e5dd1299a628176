@@ -215,7 +215,7 @@ String TEXTp7="<h1>Modification pour projet Developpement à base de logiciel lib
 JEditorPane EDITORp7 = new JEditorPane("text/html",TEXTp7);
 EDITORp7.setEditable(false);
 p1.setLayout(new BorderLayout());
-JScrollPane pane7 = new JScrollPane(EDITORp7);
+JScrollPane pane7 = new JScrollPane(EDITORp1);
 p7.add(pane7,BorderLayout.CENTER);
 ////
     
