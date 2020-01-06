@@ -23,6 +23,7 @@ public HelpDialog()
     JPanel p5=new JPanel();  
     JPanel p6=new JPanel(); 
     JPanel p7=new JPanel(); 
+    JPanel p8=new JPanel(); 
     
     
     String TEXTp1="<H4 align=center>College Time Table (CTT) is a Free" +
@@ -217,6 +218,13 @@ EDITORp7.setEditable(false);
 p1.setLayout(new BorderLayout());
 JScrollPane pane7 = new JScrollPane(EDITORp7);
 p7.add(pane7,BorderLayout.CENTER);
+//content p8//
+String TEXTp8="<h1>Modification pour projet Developpement à base de logiciel libre par <h1> <h4>mahrez mathlouthi<h4>";
+JEditorPane EDITORp8 = new JEditorPane("text/html",TEXTp8);
+EDITORp8.setEditable(false);
+p1.setLayout(new BorderLayout());
+JScrollPane pane8 = new JScrollPane(EDITORp8);
+p8.add(pane8,BorderLayout.CENTER);
 ////
     
     JTabbedPane tp=new JTabbedPane();  
@@ -228,7 +236,7 @@ p7.add(pane7,BorderLayout.CENTER);
     tp.add("Wizard",p5);  
     tp.add("More Open Source..",p6);    
     tp.add("Ahmed Khalil",p7);  
-	
+    tp.add("mahrez mathlouthi",p8);
     
     setBounds(0,0 , 800, 600);
     setTitle("Time Table Help");
