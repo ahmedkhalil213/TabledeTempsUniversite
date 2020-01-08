@@ -218,7 +218,6 @@ EDITORp7.setEditable(false);
 p1.setLayout(new BorderLayout());
 JScrollPane pane7 = new JScrollPane(EDITORp7);
 p7.add(pane7,BorderLayout.CENTER);
-p7.setBackground(Color.green);
 //content p8//
 String TEXTp8="<h1>Modification pour projet Developpement à base de logiciel libre par <h1> <h4>mahrez mathlouthi<h4>";
 JEditorPane EDITORp8 = new JEditorPane("text/html",TEXTp8);
